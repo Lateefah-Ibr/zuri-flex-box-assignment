@@ -1,0 +1,131 @@
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+
+
+body {
+    background-color:hsl(0, 0%, 95%);
+}
+
+@media only screen and (max-width: 1440px) {
+    /* For desktop: */ 
+}
+
+@media only screen and (max-width: 375px) {
+  /* For mobile: */ 
+}
+main{
+    /* margin:50%; */
+    /*width:50%; */
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+
+.left-content{
+    background-color: hsl(31, 77%, 52%);
+    padding: 1cm;
+    font-size: 15px;
+    height: 10cm;
+    width: 24%;
+}
+
+.left-content h3{
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 20px;
+  font-family: [Lexend Deca]; 
+  font-weight: 400;
+}
+
+.left-content p{
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 10px;
+  font-family: [Big Shoulders Display]; 
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.middle-content{
+  background-color:hsl(184, 100%, 22%);
+  padding: 1cm;
+  font-size: 15px;
+  height: 10cm;
+  width: 24%;
+}
+
+.middle-content h3{
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 20px;
+  font-family: [Lexend Deca];
+  font-weight: 400;
+}
+
+.middle-content p{
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 10px;
+  font-family: [Big Shoulders Display];
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.right-content{
+  background-color: hsl(179, 100%, 13%);
+  padding: 1cm;
+  font-size: 15px;
+  height: 10cm;
+  width: 25%;
+}
+.right-content h3{
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 20px;
+  font-family: [Lexend Deca];
+  font-weight: 400;
+}
+
+.right-content p{
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 10px;
+  font-family: [Big Shoulders Display];
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.left-btn{
+  color: hsl(31, 77%, 52%);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.left-btn:hover{
+  background-color: rgb(12, 11, 11);
+}
+
+.middle-btn{
+  color:hsl(184, 100%, 22%);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.middle-btn:hover{
+  background-color: rgb(12, 11, 11);
+  }
+
+.right-btn{
+  color: hsl(179, 100%, 13%);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.right-btn:hover{
+  background-color: rgb(12, 11, 11);
+}
